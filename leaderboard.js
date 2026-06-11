@@ -1,3 +1,6 @@
+
+window.submitGameScore = window.submitGameScore || function() { console.log("Leaderboard not ready yet..."); };
+
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-app.js";
 import { getDatabase, ref, push, query, orderByChild, limitToFirst, get, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-database.js";
 
